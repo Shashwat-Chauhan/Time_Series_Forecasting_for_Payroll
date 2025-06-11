@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env.*
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy / Pyright / Pylint / Coverage
+.mypy_cache/
+.pyright/
+.coverage
+htmlcov/
+.cache/
+
+# Uvicorn reload file
+.reload
+
+# FastAPI auto-generated static files (if any)
+staticfiles/
+
+# Environment configuration
+*.env
