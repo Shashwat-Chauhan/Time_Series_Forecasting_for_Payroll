@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ForecastChart from "../components/ForecastChart";
 import ScenarioAdjustment from "../components/ScenarioAdjustment";
 import ModelEvaluation from "../components/ModelEvaluation";
-import FileUploader from "../components/fileUploader";
+import FileUploader from "../components/FileUploader";
 
 function App() {
   const [forecastData, setForecastData] = useState([]);
